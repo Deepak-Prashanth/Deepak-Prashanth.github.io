@@ -1,1 +1,1 @@
-Assets of website hosted at http://deepakp92.github.io/.
+Assets of website hosted at http://Deepak-Prashanth.github.io/.
