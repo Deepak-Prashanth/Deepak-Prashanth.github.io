@@ -31,6 +31,24 @@
         ga('create', 'UA-66408458-2', 'auto');
         ga('send', 'pageview');
     </script>
+
+    // <script type="text/javascript">
+    //     function equalHeight(group) {    
+    //     var tallest = 0;    
+    //     group.each(function() {       
+    //         var thisHeight = $(this).height();       
+    //         if(thisHeight > tallest) {          
+    //             tallest = thisHeight;       
+    //         }    
+    //     });    
+    //     group.each(function() { $(this).height(tallest); });
+    // } 
+
+    // $(document).ready(function() {   
+    //     equalHeight($(".thumbnail")); 
+    // });
+    // </script>
+
 </head>
 
 <body style="padding-bottom: 4rem">
@@ -88,6 +106,7 @@
         
         <div class=edparallax>
             <div class=content id=Education>
+            <br>
                 <h2 class=border>Education</h2>
             </div> 
         </div>
@@ -121,10 +140,18 @@
 
         <br>
 
-        <div class="row">
+        <div class=wrkparallax>
             <div class=content id=Work >
+            <br>
                 <h2 class = border>Work Experience</h2>
             </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="row">
                 <div class=two_third_last>
                 <img class=logo src="img/samsung-logo.png">
                 <h3>Senior Software Engineering </h3>
@@ -165,10 +192,18 @@
 
         <br>
 
-        <div class="row">
+        <div class=papparallax>
             <div class=content id=Pubs>
+            <br>
                 <h2 class=border>Publications</h2>
             </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="row">
             <div class=two_third_last>
                 <img class=logo src="img/ieee.jpg">
                 <h3>Harmonizing Wi-Fi Direct with Wi-Fi</h3>
@@ -189,12 +224,111 @@
 
         <br>
 
-        <div class="row">
+        <!-- <div class=papparallax>
             <div class=content id=Projects>
                 <h2 class=border>Projects</h2>
             </div>
         </div>
 
+        <br>
+        <br>
+        <br> -->
+        
+        <!-- <div class="row">
+        </div> -->
+
+        <div class=parallax1>
+            <div class=content id=Projects>
+                <h2 class=border>Projects</h2>
+
+                <div class=half_column1>
+                    <!-- <p id=project_details>Click on a project to view details.</p> -->
+
+                    <a href="#" project=pers>
+                    <div class="one_third_last centered skill">
+                    <img class=headshot src="img/cloudvisor-logo.png">
+                    <h3>Aesthetic Quality of a web page</h3>
+                    <small>Supervised learning based computational model to characterize the appeal of a webpage.</small>
+                    </div>
+                    </a>
+
+                    <a href="#" project=gest>
+                    <div class="one_third_last centered skill">
+                    <img class=headshot src="img/projects/pers.png">
+                    <h3>Gesture recognition using Microsoft Kinect</h3>
+                    <small>Real time identification of gestures from depth based sensor data.</small>
+                    </div>
+                    </a>
+
+                    <a href="#" project=pers>
+                    <div class="one_third_last centered skill">
+                    <img class=headshot src="img/projects/pers.png">
+                    <h3>Person Tracker</h3>
+                    <small>Multiple subject tagging and tracking in realtime video.</small>
+                    </div>
+                    </a>
+
+                </div>
+                
+                <div class="half_column2 projects">
+                    <a href="#" project=anylearn>
+                    <div class="one_third centered skill">
+                    <img class=headshot src="img/bits-logo.jpg">
+                    <h3>Any Learn</h3>
+                    <small>BITS Pilani's MOOC Platform.</small>
+                    </div>
+                    </a>
+                    
+                    <a href="#" project=compiler>
+                    <div class="one_third centered skill">
+                    <img class=headshot src="img/projects/compiler_logo.jpg">
+                    <h3>Compilers</h3>
+                    <small>Functional compiler for C-like language.</small>
+                    </div>
+                    </a>
+
+                    <a href="#" project=osperf>
+                    <div class="one_third_last centered skill">
+                    <img class=headshot src="img/projects/osperf.png">
+                    <h3>Benchmarking an OS</h3>
+                    <small>Linux based tool to measure OS performance.</small>
+                    </div>
+                    </a>
+                    
+                </div>
+                <div class=hidden_project_details>
+                <div id=anylearn>
+                <h5>Any Learn</h5>
+                <h5>social network graph language interpreter</h5>
+                    <p>
+                    Graphene makes graph manipulation and social network data analysis convenient using a purpose-built interpreted programming language. The motivation for our language is the massive commonplace use of graphs and graph based data mining algorithms in today's software world. At the same time, we see a large bubble of social network and social network-like applications which manage a large backend of data which can usually be represented using a graph structure.</p>
+                    <p>Most of today's languages do not provide out-of-the-box or easy to use features for graph initialization, operations and management. Graphene will provide this interface to be able to support generic graph algorithms as well as specific social network applications based computations on graph-like data structures.</p>
+                    <p>Code can be found <a href="https://github.com/Adith/Graphene">here</a>.</p>
+                    <p>For a live demo, go <a href="http://adith.github.io/Graphene/">here</a>.</p>
+                </div>
+
+                <div id=dids>
+                    <h5>Distributed Intrusion Detection System</h5>
+                    <small>Advisor: Ananthanarayanan V.</small>
+                    <p>Project majoring in Artificial Intelligence &amp; Network Security, to research and develop the next generation of network systems capable of defending the network by evolving. Genetic algorithms such as clonal selection used in a distributed non-cooperative system to generate rules. Activities were mapped, data mined and anomalies were identified using clustering algorithms and the Hamming distance, Euclidean distance and Overlap area methods.
+                    </p>
+                    <p>Rules function on multiple layers of OSI Layer and enact the required action such as event flagging and firewalling. While neural networks are more effective at training, genetic algorithms have more effect at learning. Learning could not be done on-the-fly. There had to be cells that evaluate the threshold values and then reflect it system-wide. We maintained a hierarchical architecture for the detectors with the primary at the gateway performing passive network captures so as to be more effective.</p>
+                </div>
+                    <div id=others>
+                    <h5>Secure Object Stores</h5>
+                    <h5>Distributed Fault-tolerant Lock Server </h5>
+                    </div>
+                </div>
+                <div class=bigspace></div><br>
+                <h1 class="content-title bright">
+                    Projects
+                </h1>
+                </div>
+            </div>
+
+
+        <!--  -->
+        <!--  -->
         <div class="row">
             <div class=content id=About>
                 <h2 class=border>About</h2>

@@ -29,9 +29,11 @@
   h3{color:rgba(255,255,255,1);font-family:'Roboto',sans-serif;font-size:24px;line-height:1.2em;font-weight:700;padding:0;margin:0 0 50px 0;text-transform:uppercase}
   h5{color:rgba(255,255,255,1);letter-spacing:0;font-family:'Roboto',sans-serif;font-size:20px;line-height:1.2em;font-weight:600;padding:10px 0 0 0;margin:0;text-align:left}
   .container{background:none repeat scroll 0 0 transparent;z-index:100;font-family:'Roboto',sans-serif;width:100%}.whitecontainer{width:100%;padding:80px 0;overflow:auto}
-  .parallax1{background-image:url("../img/background5.jpg");overflow:auto;padding:80px 0;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-position:center center;background-attachment:fixed}
+  .parallax1{/*background-image:url("../img/background5.jpg");*/overflow:auto;padding:80px 0;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-position:center center;background-attachment:fixed}
   .parallax1 p,.parallax1 h2,.parallax2 p,.parallax2 h2{color:#fff}
   .edparallax{background-image:url("../img/bits-pic.jpg");overflow:auto;padding:80px 0;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-position:center center;background-attachment:fixed}
+  .wrkparallax{background-image:url("../img/samsung.jpg");overflow:auto;padding:80px 0;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-position:center center;background-attachment:fixed}
+  .papparallax{background-image:url("../img/background.jpeg");overflow:auto;padding:80px 0;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;background-position:center center;background-attachment:fixed}
 
   .parallax2{background-image:url("../img/background2.jpg");background-size: cover; background-repeat: no-repeat; background-position:center center;background-attachment:fixed}
   .wrapper{background:none repeat scroll 0 0 transparent;width:100%;position:absolute}
@@ -59,6 +61,13 @@
   .one_third_last.skill{float:left;text-align:left;width:49%;margin-right:0}
   .two_third_last{float:left;text-align:left;width:100%}
   .huge-title{width:80%;top:25%}}@media all and (max-width:640px){p{font-size:19px}
-  .half_column1{float:left;margin-top:5%;text-align:center;width:100%}.half_column2{float:right;margin-top:5%;text-align:center;width:100%}.headshot{width:25%;}.logo{display:none;}.content-copyright{right:0px;}.content-title{right:-20px;}.half_column2 h3{text-align:center}.links{display:none}.hero .one_third{width:47%}}@media all and (max-width:568px){.one_third_last.skill,.one_third.skill{float:none;margin:40px auto 0;text-align:left;width:70%}.hero .one_third{width:100%}h1{font-size:40px;padding-bottom:10px}h2{font-size:36px}h3{font-size:27px}h5{font-size:18px}.content{width:80%}.huge-title{width:80%;top:30%}
+  .half_column1{float:left;margin-top:5%;text-align:center;width:100%}.half_column2{float:right;margin-top:5%;text-align:center;width:100%}.headshot{width:25%;}
+  .logo{display:none;}
+  .content-copyright{right:0px;}
+  .content-title{right:-20px;}
+  .half_column2 h3{text-align:center}
+  .links{display:none}.hero 
+  .one_third{width:47%}}@media all and (max-width:568px){.one_third_last.skill,.one_third.skill{float:none;margin:40px auto 0;text-align:left;width:70%}.hero .one_third{width:100%}h1{font-size:40px;padding-bottom:10px}h2{font-size:36px}h3{font-size:27px}h5{font-size:18px}.content{width:80%}.huge-title{width:80%;top:30%}
   .logo{display:none;}
   .small{clear:left;display:table;margin-top:20px;position:relative}}
+  .circ{border-radius: 50%;width: 50%; height: 15em; margin: 0 auto; overflow: hidden;}
