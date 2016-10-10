@@ -50,7 +50,7 @@
   .one_third{float:left;margin-bottom:5%;width:31%;margin-right:3.5%;text-align:left}
   .one_third_last{float:right;margin-bottom:5%;width:31%;text-align:left}
   .two_third_last{float:right;margin-bottom:5%;width:65%;text-align:left}
-  .one_third_last img,.one_third img,.half_column2 img{width:100%;height:auto}
+  .one_third_last img,.one_third img,.half_column2 img{width:auto;height:100px}
   .one_third h2{font-size:32px;padding:0 0 10px 0;opacity:.4}
   .one_third_last h3,.one_third h3{font-size:16px;margin:0;font-weight:500}.two_third_last h3{margin:1px 0 10px 0}
   .two_third_last h5{display:inline;opacity:.7;margin-right:20px}.clearfix:after{content:"";display:table;clear:both;height:20px}@media all and (max-width:1024px){.content{width:80%}h1{font-size:65px}.huge-title{top:25%}
